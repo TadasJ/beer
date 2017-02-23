@@ -35,6 +35,10 @@ Composer:
 
     composer install
     
+Run database migrations:
+    
+    app/console doctrine:migrations:migrate
+
 Import data from CSV to database:
 
     app/console app:import-data
